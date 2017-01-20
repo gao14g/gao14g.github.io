@@ -35,6 +35,6 @@ img {
 footer {
   font-size: .85em;
   text-align: center;
-  position: static;
+  position: relative;
   bottom:0;
 }
