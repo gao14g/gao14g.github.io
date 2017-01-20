@@ -3,6 +3,7 @@ body {
   background: #c0c0aa;
   background: -webkit-linear-gradient(to left, #c0c0aa , #1ce); 
   background: linear-gradient(to left, #c0c0aa , #1ce);
+  margin: 0 10%;
 }
 h1 {
   font-weight: normal;
@@ -27,5 +28,5 @@ footer {
   font-family: 'Noto Serif', serif;
   clear: both;
   font-size: .85em;
-  bottom: 0;
+  bottom: 0px;
 }
