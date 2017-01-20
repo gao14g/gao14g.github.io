@@ -44,5 +44,6 @@ footer {
   */
   clear:both;
   text-align: center;
-  padding-top: 2em;
+  position:fixed;
+  bottom:0;
 }
