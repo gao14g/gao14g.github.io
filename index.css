@@ -33,8 +33,10 @@ img {
   border-color: black;
 }
 footer {
+  clear: both;
   font-size: .85em;
   text-align: center;
   position: relative;
-  bottom:0;
+  margin-bottom:0;
+  
 }
