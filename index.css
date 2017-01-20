@@ -1,6 +1,8 @@
 body {
   font-family: 'Noto Serif', serif;
-  background-color: #e1f9f6;
+  background: #c0c0aa;
+  background: -webkit-linear-gradient(to left, #c0c0aa , #1ce); 
+  background: linear-gradient(to left, #c0c0aa , #1ce); 
   margin: 0 15%;
 }
 h1 {
