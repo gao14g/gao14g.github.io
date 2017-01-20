@@ -27,6 +27,9 @@ p {
 footer {
   font-family: 'Noto Serif', serif;
   clear: both;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  text-align: center;
   font-size: .85em;
-  bottom: 0px;
 }
