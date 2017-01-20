@@ -24,8 +24,8 @@ p {
 }
 footer {
   clear: both;
-  padding-top: 6em;
-  font-size: .75em;
+  position: relative;
+  margin-top: -180px;
+  height: 180px;
   text-align: center; 
-  margin: 0 15%;
 }
