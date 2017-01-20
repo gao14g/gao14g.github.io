@@ -28,14 +28,14 @@ img {
   border-radius: 20px;
   text-align: center;
   height: 200px;
-  width: 50%;
+  width: 200px;
   border-width:.5em;
   border-style: solid;
   border-color: black;
 }
 footer {
   font-size: .85em;
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
