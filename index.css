@@ -3,7 +3,6 @@ body {
   background: #c0c0aa;
   background: -webkit-linear-gradient(to left, #c0c0aa , #1ce); 
   background: linear-gradient(to left, #c0c0aa , #1ce);
-  margin: 0 10%;
 }
 h1 {
   font-weight: normal;
