@@ -27,19 +27,22 @@ p {
 img {
   border-radius: 20px;
   align-items: center;
-  height: 200px;
-  width: 200px;
   border-width:.35em;
   border-style: solid;
   border-color: black;
 }
 footer {
   font-size: .85em;
-  position: absolute;
+  /*position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1em;
   text-align: center;
+  */
+  clear:both;
+  padding-top: 6em;
+	margin-left: 2em;
+
  
 }
