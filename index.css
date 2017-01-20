@@ -7,16 +7,18 @@ h1 {
   font-weight: normal;
   text-align: center; 
   text-transform: uppercase;
-  font-size: 6em;
+  font-size: 4.5em;
   margin-top: 5%;
+  padding: 2%;
+  border-bottom: .05em solid #d1633c;
 }
 h2 {
   font-weight: normal;
   text-align: left; 
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 p {
-  font-size: 2em; 
+  font-size: 1.5em; 
   text-align: left;
 }
