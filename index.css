@@ -26,6 +26,9 @@ p {
 }
 img {
   border-radius: 20px;
+  text-align: center;
+  height: 200px;
+  width: 50%;
   border-width:.5em;
   border-style: solid;
   border-color: black;
