@@ -28,6 +28,8 @@ p {
   float right;
   border-radius: 20px;
   border-width:.35em;
+  padding-left: 20px;
+  border-style: solid;
   height: 200px;
   width: 200px;
 }
@@ -35,6 +37,8 @@ p {
   float left;
   border-radius: 20px;
   border-width:.25em;
+  padding-left: 20px;
+  border-style: solid;
   height: 200px;
   width: 200px;
 }
