@@ -24,6 +24,20 @@ p {
   font-size: 1.5em; 
   text-align: left;
 }
+.image1 {
+  float right;
+  border-radius: 20px;
+  border-width:.35em;
+  height: 200px;
+  width: 200px;
+}
+.image2 {
+  float left;
+  border-radius: 20px;
+  border-width:.25em;
+  height: 200px;
+  width: 200px;
+}
 footer {
   font-family: 'Noto Serif', serif;
   clear: both;
