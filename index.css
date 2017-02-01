@@ -24,6 +24,7 @@ p {
   font-size: 1.5em; 
   text-align: left;
 }
+
 .image1 {
   float right;
   border-radius: 20px;
@@ -42,6 +43,13 @@ p {
   height: 200px;
   width: 200px;
 }
+
+.text-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 footer {
   font-family: 'Noto Serif', serif;
   clear: both;
