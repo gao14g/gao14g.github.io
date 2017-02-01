@@ -49,6 +49,14 @@ p {
   flex: 1;
 }
 
+section {
+  flex:1;
+}
+
+aside {
+  flex:1;
+}
+
 footer {
   font-family: 'Noto Serif', serif;
   text-align: center;
