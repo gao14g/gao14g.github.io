@@ -16,13 +16,11 @@ h1 {
 }
 h2 {
   font-weight: normal;
-  text-align: left; 
   text-transform: uppercase;
   font-size: 2.5em;
 }
 p {
   font-size: 1.5em; 
-  text-align: left;
 }
 
 .image1 {
@@ -46,7 +44,6 @@ p {
 
 .text-flex-container {
   display: flex;
-  flex: 1;
 }
 
 section {
