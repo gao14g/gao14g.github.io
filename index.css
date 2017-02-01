@@ -51,10 +51,12 @@ p {
 
 section {
   flex:1;
+  text-align: center;
 }
 
 aside {
   flex:1;
+  text-align: center;
 }
 
 footer {
