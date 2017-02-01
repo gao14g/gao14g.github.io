@@ -46,6 +46,7 @@ p {
 
 .text-flex-container {
   display: flex;
+  flex: 1;
 }
 
 footer {
