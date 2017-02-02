@@ -23,14 +23,14 @@ p {
   font-size: 1.5em; 
 }
 
-.img-flex-container {
+img {
   border-radius: 20px;
   border-width:.35em;
   margin-right: 1em;
   border-style: solid;
   height: 200px;
   width: 200px;
-  display: flex;
+  flex:1;
 }
 
 /*
