@@ -23,6 +23,17 @@ p {
   font-size: 1.5em; 
 }
 
+.img-flex-container {
+  border-radius: 20px;
+  border-width:.35em;
+  margin-right: 1em;
+  border-style: solid;
+  height: 200px;
+  width: 200px;
+  display: flex;
+}
+
+/*
 .image1 {
   float right;
   border-radius: 20px;
@@ -41,7 +52,7 @@ p {
   height: 200px;
   width: 200px;
 }
-
+*/
 .text-flex-container {
   display: flex;
 }
