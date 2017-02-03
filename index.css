@@ -1,7 +1,10 @@
 body {
   font-family: 'Noto Serif', serif;
-  background: #ffe4c4;
+  margin: 0 8%;
+  background: -webkit-linear-gradient(to left, #c0c0aa , #1ce); 
+  background: linear-gradient(to left, #c0c0aa , #1ce);
 }
+
 h1 {
   font-weight: normal;
   text-align: center; 
@@ -10,8 +13,6 @@ h1 {
   margin-top: 5%;
   padding: 2%;
   border-bottom: .05em solid #003300;
-  background: -webkit-linear-gradient(to left, #c0c0aa , #1ce); 
-  background: linear-gradient(to left, #c0c0aa , #1ce);
 }
 h2 {
   font-weight: normal;
