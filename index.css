@@ -30,6 +30,14 @@ p {
   justify-content: center;
 }
 
+nav a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 2em;
+}
+  
+
 img {
   border-radius: 20px;
   border-width:.35em;
