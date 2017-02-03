@@ -35,7 +35,8 @@ nav a {
   text-decoration: none;
   display: block;
   text-align: center;
-  padding: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
 } 
 
 img {
