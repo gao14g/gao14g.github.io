@@ -1,8 +1,6 @@
 body {
   font-family: 'Noto Serif', serif;
-  background: #c0c0aa;
-  background: -webkit-linear-gradient(to left, #c0c0aa , #1ce); 
-  background: linear-gradient(to left, #c0c0aa , #1ce);
+  background: #ffe4c4;
   margin: 0 10%;
 }
 h1 {
@@ -13,6 +11,8 @@ h1 {
   margin-top: 5%;
   padding: 2%;
   border-bottom: .05em solid #003300;
+  background: -webkit-linear-gradient(to left, #c0c0aa , #1ce); 
+  background: linear-gradient(to left, #c0c0aa , #1ce);
 }
 h2 {
   font-weight: normal;
@@ -21,6 +21,13 @@ h2 {
 }
 p {
   font-size: 1.5em; 
+}
+
+.nav-flex-container ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 img {
