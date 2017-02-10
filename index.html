@@ -38,6 +38,13 @@
   <footer> 
     Page created by: Ga Kay Gao. Created on: 1/16/17. Last updated on: <p id = "todays-date"></p>
   </footer>
-  <script src="index.js"> showDate()</script>
+  <script>
+   function showDate() {
+     var todaysDate = new Date();
+     var dateElement = document.querySelector("#todays-date");
+     dateElement.innerHTML = todaysDate.toDateString();
+   }
+   showDate();
+</script>
   </body>
 </html>
