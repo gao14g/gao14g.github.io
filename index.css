@@ -70,3 +70,7 @@ footer {
   text-align: center;
   font-size: .85em;
 }
+
+footer p {
+  display:inline;
+}
