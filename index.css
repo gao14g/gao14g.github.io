@@ -5,6 +5,11 @@ body {
   background: linear-gradient(to left, #c0c0aa , #1ce);
 }
 
+#content {
+  background-color: white;
+  margin: 10% 10%;
+}
+
 h1 {
   font-weight: normal;
   text-align: center; 
