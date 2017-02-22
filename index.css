@@ -39,6 +39,7 @@ nav a {
   text-align: center;
   padding-right: 2em;
   padding-left: 2em;
+  padding-bottom: 2em;
 } 
 
 img {
@@ -46,9 +47,8 @@ img {
   border-width:.35em;
   margin-right: 1em;
   border-style: solid;
-  height: 200px;
-  width: 150px;
-  padding-left: 1em;
+  height: 300px;
+  width: 175px;
   flex:1;
 }
 
