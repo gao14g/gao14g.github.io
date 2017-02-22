@@ -45,10 +45,10 @@ nav a {
 img {
   border-radius: 20px;
   border-width:.35em;
-  margin-right: 1em;
+  margin-right: 3em;
   border-style: solid;
-  height: 375px;
-  width: 200px;
+  height: 400px;
+  width: 280px;
   flex:1;
 }
 
@@ -56,9 +56,6 @@ img {
   display: flex;
 }
 
-.img-flex-container {
-  display: flex;
-}
 
 section {
   flex:1;
