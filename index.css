@@ -5,10 +5,6 @@ body {
   background: linear-gradient(to left, #c0c0aa , #1ce);
 }
 
-#content {
-  background-color: #F9F7E1;
-}
-
 h1 {
   font-weight: normal;
   text-align: center; 
@@ -41,8 +37,8 @@ nav a {
   text-decoration: none;
   display: block;
   text-align: center;
-  padding-right: 1em;
-  padding-left: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
 } 
 
 img {
@@ -50,8 +46,9 @@ img {
   border-width:.35em;
   margin-right: 1em;
   border-style: solid;
-  height: 300px;
-  width: 200px;
+  height: 200px;
+  width: 150px;
+  padding-left: 1em;
   flex:1;
 }
 
