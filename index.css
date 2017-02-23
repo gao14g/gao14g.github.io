@@ -104,12 +104,12 @@ footer p {
 #controls {
    padding: 10px;
 }
-p {
+.audio p {
    font-family: Verdana, sans-serif;
    color: white;
    margin: 0;
 }
-span {
+.audio span {
    margin: 0 10px;
    color: darkturquoise;
 }
