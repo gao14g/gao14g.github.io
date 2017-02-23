@@ -92,11 +92,6 @@ footer p {
   font-size: .85em;
 }
 
-.audio div{
-  margin: 15% 15%;
-  background-color: black;
-}
-
 #audio-container {
    text-align: center;
    margin: 5% auto;
@@ -108,7 +103,6 @@ footer p {
    padding: 10px;
 }
 .audio p {
-   font-family: Verdana, sans-serif;
    color: white;
    margin: 0;
 }
