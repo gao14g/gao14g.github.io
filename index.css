@@ -61,8 +61,6 @@ img {
   width: 300px;
   margin-left: 100px;
 }
-  
-  
 
 .text-flex-container {
   display: flex;
@@ -92,6 +90,11 @@ footer p {
   font-family: 'Noto Serif', serif;
   display:inline;
   font-size: .85em;
+}
+
+.audio div{
+  margin: 15% 15%;
+  background-color: black;
 }
 
 #audio-container {
