@@ -96,14 +96,13 @@ footer p {
    text-align: center;
    margin: 5% auto;
    width: 80%;
-   background-color: black;
+   background-color: white;
    padding-top: 5%;
 }
 #controls {
    padding: 20px;
 }
 .audio p {
-   color: white;
    margin: 0;
 }
 .audio span {
