@@ -94,3 +94,32 @@ footer p {
   font-size: .85em;
 }
 
+#audio-container {
+   text-align: center;
+   margin: 5% auto;
+   width: 80%;
+   background-color: midnightblue;
+   padding-top: 5%;
+}
+#controls {
+   padding: 10px;
+}
+p {
+   font-family: Verdana, sans-serif;
+   color: white;
+   margin: 0;
+}
+span {
+   margin: 0 10px;
+   color: darkturquoise;
+}
+#progress {
+   margin: 5%;
+   border: 1px solid darkturquoise;
+   border-radius: 5px;
+}
+#bar {
+   height: 20px;
+   background-color: darkturquoise;
+   width: 0;
+}
