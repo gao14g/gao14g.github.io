@@ -52,6 +52,18 @@ nav a {
   flex:1;
 }
 
+img {
+  border-radius: 20px;
+  border-width:.35em;
+  margin-right: 3em;
+  border-style: solid;
+  height: 400px;
+  width: 280px;
+  flex:1;
+}
+  
+  
+
 .text-flex-container {
   display: flex;
 }
