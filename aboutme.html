@@ -73,6 +73,8 @@
 
  var bar = document.querySelector("#bar");
  myAudio.addEventListener('timeupdate', updateProgress);
+  
+ myAudio.volume = 0.5;
 
  // display progress
  function updateProgress() {
