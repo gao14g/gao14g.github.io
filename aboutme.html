@@ -74,7 +74,8 @@
  var bar = document.querySelector("#bar");
  myAudio.addEventListener('timeupdate', updateProgress);
   
- var vid = document.getElementById("myVideo");
+ var aud = document.getElementById("audio1");
+ aud.addEventListener("seeking", myFunction);
   
  myAudio.volume = 0.25;
 
@@ -118,7 +119,6 @@
     if (myAudio.volume > 0.0)
        myAudio.volume = myAudio.volume - 0.1;
  }
-
 </script>
 <script src="https://use.fontawesome.com/76b18e051a.js"></script>
 </body>
