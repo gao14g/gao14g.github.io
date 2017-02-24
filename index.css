@@ -107,15 +107,16 @@ footer p {
    padding: 10px;
 }
 
-
-.audio p {
+#audio-container p {
    margin: 0;
 }
-.audio span {
+
+span {
    margin: 1px 10px;
    padding: 10px;
    color: darkturquoise;
 }
+
 #progress {
    margin: 5%;
    border: 1px solid darkturquoise;
