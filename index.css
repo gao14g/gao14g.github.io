@@ -93,6 +93,9 @@ footer p {
 }
 
 #audio-container {
+   border-radius: 20px;
+   border-width:.35em;
+   border-style: solid;
    text-align: center;
    margin: 5% auto;
    width: 80%;
