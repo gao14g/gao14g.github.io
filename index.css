@@ -99,7 +99,7 @@ footer p {
    text-align: center;
    margin: 5% auto;
    width: 80%;
-   background-color: white;
+   background-color: #5DBCD2;
    padding-top: 5%;
 }
 
@@ -114,16 +114,16 @@ footer p {
 span {
    margin: 1px 10px;
    padding: 10px;
-   color: darkturquoise;
+   color: #5DBCD2;
 }
 
 #progress {
    margin: 5%;
-   border: 1px solid darkturquoise;
+   border: 1px solid #5DBCD2;
    border-radius: 5px;
 }
 #bar {
    height: 20px;
-   background-color: darkturquoise;
+   background-color: #5DBCD2;
    width: 0;
 }
