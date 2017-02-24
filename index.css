@@ -106,6 +106,10 @@ footer p {
    padding: 10px;
 }
 
+span:hover{
+  background-color: #D2D2D0 ;
+}
+
 #audio-container p {
    margin: 0;
 }
