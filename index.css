@@ -102,15 +102,18 @@ footer p {
    background-color: white;
    padding-top: 5%;
 }
+
 #controls {
-   padding: 20px;
-   margin: 10px;
+   padding: 10px;
 }
+
+
 .audio p {
    margin: 0;
 }
 .audio span {
-   margin: 0 10px;
+   margin: 1px 10px;
+   padding: 10px;
    color: darkturquoise;
 }
 #progress {
