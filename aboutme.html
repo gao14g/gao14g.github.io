@@ -28,7 +28,7 @@
     </p>
   </div>
   <div id = "audio-container">
-    <audio id = "audio1" ontimeupdate='updateTrackTime(this)'>
+    <audio id = "audio1">
       <source src="https://ia601205.us.archive.org/26/items/17ForTheBand/22%20-%20Who%20I%20Am%20Hates%20Who%20I've%20Been%20(Acoustic).mp3" type="audio/mpeg">
       
       <source src="https://ia801205.us.archive.org/26/items/17ForTheBand/22%20-%20Who%20I%20Am%20Hates%20Who%20I've%20Been%20(Acoustic).ogg" type="audio/ogg">
@@ -118,22 +118,6 @@
        myAudio.volume = myAudio.volume - 0.1;
  }
   
-  function updateTrackTime(track){
-  var currTimeDiv = document.getElementById('currentTime');
-  var durationDiv = document.getElementById('duration');
-
-  var currTime = Math.floor(track.currentTime).toString(); 
-  var duration = Math.floor(track.duration).toString();
-
-  currTimeDiv.innerHTML = formatSecondsAsTime(currTime);
-
-  if (isNaN(duration)){
-    durationDiv.innerHTML = '00:00';
-  } 
-  else{
-    durationDiv.innerHTML = formatSecondsAsTime(duration);
-  }
-}
 </script>
 <script src="https://use.fontawesome.com/76b18e051a.js"></script>
 </body>
