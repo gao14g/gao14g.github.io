@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <link rel = "stylesheet" href="index.css" type ="text/css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
   <title>Ga Kay's Portfolio</title>
 </head>
 <body>
@@ -31,18 +32,33 @@
     </aside>
   </div>
     <h2> Pictures of Me: </h2>
+    /*
       <div class = "img-flex-container">
         <img src="gao14g.github.io/pictures/Pic_2.jpg" alt="Picture of me and my boyfriend">
         <img src="gao14g.github.io/pictures/Pic_3.jpg" alt="Picture of me and my sister">
         <img src="gao14g.github.io/pictures/Pic_4.jpg" alt="Picture of me and my boyfriend">
-      </div>
+      </div> 
+    */
+   <div class ="fotorama" data-width ="60%" data-nav = "thumbs">
+     <img src ="gao14g.github.io/pictures/Pic_2.jpg" 
+          alt ="Picture of me and my boyfriend before a dinner"
+          data-caption = "Me and my boyfriend">
+     <img src = "gao14g.github.io/pictures/Pic_3.jpg"
+          alt = "Picture of me and my sister at her wedding"
+          data-caption = "Me and my sister">
+     <img src = "gao14g.github.io/pictures/Pic_4.jpg"
+          alt = "Picture of me and my boyfriend at my prom"
+          data-caption = "Me and my boyfriend">
+   </div>
   <footer> 
     Page created by: Ga Kay Gao. Created on: 1/16/17. Last updated on: <p id = "todays-date"></p>
     <script>
-     var todaysDate = "Friday, February 23, 2017";
+     var todaysDate = "Friday, March 3, 2017";
      var dateElement = document.querySelector("#todays-date");
      dateElement.innerHTML = todaysDate;
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   </footer>
   </div>
   </body>
