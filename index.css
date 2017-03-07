@@ -5,6 +5,10 @@ body {
   background: linear-gradient(to left, #c0c0aa , #1ce);
 }
 
+#aboutme {
+  clear:both
+}
+
 h1 {
   font-weight: normal;
   text-align: center; 
